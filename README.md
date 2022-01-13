@@ -6,9 +6,9 @@ This script is used to calculate the total CCRI STIG score per device, from STIG
 ** NOTE **:  This script expects you to have a specific naming convention for your STIG checklists. The naming convention is very much similar to default DISA style. 
 
 Example name from DISA:
-U_MOZ_Firefox_STIG_V6R1.ckl
+`_U_MOZ_Firefox_STIG_V6R1.ckl`
 
-Expected name in script (without the escape characters):
+Expected name in script:
  `Myhostname_U_MOZ_Firefox_STIG_V6$1.ckl`
 
 The reason this is needed is because this is how all of the applied STIGs per device are combined, by hostname.
