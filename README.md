@@ -12,3 +12,14 @@ Expected name in script:
  `Myhostname_U_MOZ_Firefox_STIG_V6R1.ckl`
 
 Replace the <Myhostname> section above with the hostname of your device when naming the checklist files. The reason this is needed is because this is how all of the applied STIGs per device are combined, by hostname.
+
+ REQUIREMENTS:
+ - A directory of STIG checklists (or just one checklist)
+ - Powershell ISE
+ 
+ HOW TO USE:
+ - Open script in Powershell ISE
+ - Make changes in the 'Make Changes' section (as always :D)
+ - You will need to provide values for the following variables:
+ 1.) Directory of STIG checklists to look through (Variable name: $Dirpath)
+ 2.) Output filepath (without filename) (Variable name: $Outpath)
