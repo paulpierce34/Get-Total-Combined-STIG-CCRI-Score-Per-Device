@@ -8,7 +8,7 @@ This script is used to calculate the total CCRI STIG score per device, from STIG
 Example name from DISA:
 U_MOZ_Firefox_STIG_V6R1.ckl
 
-Expected name in script (without the escape ` characters):
+Expected name in script (without the escape characters):
  `Myhostname_U_MOZ_Firefox_STIG_V6$1.ckl`
 
 The reason this is needed is because this is how all of the applied STIGs per device are combined, by hostname.
