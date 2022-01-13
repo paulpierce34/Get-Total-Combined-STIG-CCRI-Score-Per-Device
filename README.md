@@ -11,4 +11,4 @@ Example name from DISA:
 Expected name in script:
  `Myhostname_U_MOZ_Firefox_STIG_V6$1.ckl`
 
-The reason this is needed is because this is how all of the applied STIGs per device are combined, by hostname.
+Replace the <Myhostname> section above with the hostname of your device when naming the checklist files. The reason this is needed is because this is how all of the applied STIGs per device are combined, by hostname.
